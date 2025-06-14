@@ -1,0 +1,563 @@
+[
+  {
+    "id": 1,
+    "question": "What is the main assumption behind multiple linear regression?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 2,
+    "question": "How is the loss function in multiple linear regression defined?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 3,
+    "question": "When should multiple linear regression be avoided?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 4,
+    "question": "How do you interpret the coefficients of a linear regression model?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 5,
+    "question": "Why would you use polynomial regression over linear regression?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 6,
+    "question": "What is the danger of using high-degree polynomials?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 7,
+    "question": "How do splines improve over high-degree polynomials?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of regularization?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 9,
+    "question": "How does Ridge differ from Lasso regression?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 10,
+    "question": "Which regularization technique can be used for feature selection?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 11,
+    "question": "What does the alpha hyperparameter control in Ridge and Lasso?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 12,
+    "question": "What type of problem does logistic regression solve?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 13,
+    "question": "What is the output of a logistic regression model?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 14,
+    "question": "How does F1-score help when dealing with imbalanced datasets?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 15,
+    "question": "Explain a scenario in which recall is more important than precision and why.",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 17,
+    "question": "What kind of data are CNNs best suited for?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 18,
+    "question": "Name two common layers used in CNNs.",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 19,
+    "question": "Name parameters used for defining a CNN.",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 20,
+    "question": "What is the role of filters in CNNs?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 21,
+    "question": "What makes RNNs different from feedforward networks?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 22,
+    "question": "What is a limitation of typical RNNs?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 23,
+    "question": "What data types are RNNs commonly used for?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 24,
+    "question": "Name 3 examples of sequential problems?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 25,
+    "question": "What is the core idea behind ensemble methods?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 26,
+    "question": "What are the main types of ensemble methods?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 27,
+    "question": "What is stacking in ensemble learning?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 28,
+    "question": "What are the advantages of using ensemble models?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 29,
+    "question": "How does a random forest differ from a decision tree?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 30,
+    "question": "What is the role of max_features in Random Forest?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 31,
+    "question": "What is an out of bag sample?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 32,
+    "question": "What does increasing n_estimators typically do?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 33,
+    "question": "How does boosting work conceptually?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 34,
+    "question": "What is the impact of learners on the final prediction in AdaBoost?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 35,
+    "question": "What is the role of learning_rate in boosting?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 36,
+    "question": "Why is boosting more prone to overfitting than bagging?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 37,
+    "question": "What kind of clustering does DBSCAN perform?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 38,
+    "question": "What does the eps parameter control in DBSCAN?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 39,
+    "question": "How does DBSCAN handle outliers?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 40,
+    "question": "What type of datasets is DBSCAN ideal for?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 41,
+    "question": "What is the primary purpose of UMAP?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 42,
+    "question": "What does n_neighbors control in UMAP?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 43,
+    "question": "What is a common application of UMAP?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 44,
+    "question": "Is UMAP deterministic?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 45,
+    "question": "What is the main idea of MDS?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 46,
+    "question": "What is the difference between metric and non-metric MDS?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 47,
+    "question": "Give an example of when is recommended to use metric MDS.",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 48,
+    "question": "How is the computational speed of MDS when compared to UMAP or t-SNE?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 49,
+    "question": "What does the SVM algorithm aim to maximize?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 50,
+    "question": "What is a support vector?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 51,
+    "question": "What does the kernel trick allow in SVMs?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  },
+  {
+    "id": 52,
+    "question": "What does the hyperparameter C control?",
+    "options": [
+      "Option A (placeholder)",
+      "Option B (placeholder)",
+      "Option C (placeholder)",
+      "Option D (placeholder)"
+    ],
+    "answer": "Option A (placeholder)"
+  }
+]
