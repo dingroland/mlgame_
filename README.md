@@ -10,7 +10,7 @@ A simple, web-based quiz application for testing Machine Learning knowledge. Thi
     ```
 
 2.  **Set OpenAI API Key**
-    You need to set your OpenAI API key as an environment variable.
+    You need to set your OpenAI API key as an environment variable. ONLY if you want new questions!!
     ```bash
     export OPENAI_API_KEY="your-secret-api-key-goes-here"
     ```
