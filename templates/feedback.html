@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Quiz - Feedback</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="question-card">
+            {% if is_correct %}
+                <div class="answer-feedback correct">
+                    <div class="feedback-content">
+                        <div class="feedback-icon"><i class="fas fa-check-circle"></i></div>
+                        <div class="feedback-text"><h2>Correct!</h2></div>
+                    </div>
+                </div>
+            {% else %}
+                <div class="answer-feedback incorrect">
+                    <div class="feedback-content">
+                        <div class="feedback-icon"><i class="fas fa-times-circle"></i></div>
+                        <div class="feedback-text"><h2>Incorrect!</h2></div>
+                    </div>
+                </div>
+            {% endif %}
+
+            <div class="more-info-section">
+                <h3>Deeper Dive:</h3>
+                <p>{{ more_info }}</p>
+                
+                {% if not is_correct %}
+                <h4>Correct Answer(s):</h4>
+                <ul>
+                    {% for answer in correct_answers %}
+                    <li>{{ answer }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+
+            <div class="question-actions">
+                <a href="{{ url_for('quiz') }}" class="btn btn-primary">
+                    <i class="fas fa-arrow-right"></i> Next Question
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

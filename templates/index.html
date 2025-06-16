@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Quiz - Start</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <header class="quiz-header">
+            <div class="header-content">
+                <h1><i class="fas fa-brain"></i> ML Knowledge Quiz</h1>
+                <p>Test your Machine Learning expertise</p>
+            </div>
+        </header>
+
+        <div class="question-card">
+            <h2>Welcome!</h2>
+            <p>Choose your quiz settings below and press Start.</p>
+            
+            <form action="{{ url_for('index') }}" method="POST" class="start-form">
+                <div class="form-group">
+                    <input type="checkbox" id="lightweight_mode" name="lightweight_mode" value="true">
+                    <label for="lightweight_mode">Lightweight Mode (Single correct answer)</label>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="sequential_mode" name="sequential_mode" value="true">
+                    <label for="sequential_mode">Sequential Order (Go through questions 1 to 52)</label>
+                </div>
+
+                <div class="question-actions">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-play"></i> Start Quiz
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html> 

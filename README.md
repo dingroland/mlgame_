@@ -1,54 +1,59 @@
-# ML Knowledge Quiz 
+# ML Knowledge Quiz
 
-A beautiful, modern web-based quiz application for testing Machine Learning knowledge. Features an attractive UI with smooth animations, real-time feedback, and responsive design.
+A simple, web-based quiz application for testing Machine Learning knowledge. This app uses GPT-4o to generate answers and explanations for your questions.
 
-## Features 
+## How to Run
 
-- **Modern UI**: Beautiful gradient backgrounds, smooth animations, and professional styling
-- **Interactive Experience**: Click or use keyboard shortcuts to navigate
-- **Real-time Feedback**: Instant visual feedback showing correct/incorrect answers
-- **Progress Tracking**: Live progress bar and question counter
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Navigation**: Browse between questions freely, with answers preserved
-- **Score Tracking**: Complete results with percentage scoring
-- **Keyboard Shortcuts**: Use number keys (1-4) to select options, Enter to submit, arrow keys to navigate
-- **Auto-advance**: Automatically moves to next question after showing results
+1.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## Quick Start 
+2.  **Set OpenAI API Key**
+    You need to set your OpenAI API key as an environment variable.
+    ```bash
+    export OPENAI_API_KEY="your-secret-api-key-goes-here"
+    ```
 
-1. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+3.  **Generate Quiz Content (Optional)**
+    **Note:** The `quiz_data.json` file is already included. You only need to run this step if you modify `questions.json` and want to regenerate the content.
+    ```bash
+    python generate_answers.py
+    ```
 
-2. **Run the Application**
-   ```bash
-   python app.py
-   ```
+4.  **Run the Application**
+    ```bash
+    python app.py
+    ```
 
-3. **Open Browser**
-   Navigate to `http://localhost:5000` in your web browser
+5.  **Open in Browser**
+    Navigate to `http://0.0.0.0:5001` in your web browser.
 
-## Keyboard Shortcuts 
+## Features
 
-- **1-4**: Select answer options A-D
-- **Enter**: Submit answer or go to next question
-- **←/→**: Navigate between questions (when appropriate)
+- **Dynamic Content**: Generates true statements, false statements, and deeper explanations for each question using GPT-4o.
+- **Game Modes**: Choose between Lightweight (single correct answer) and Normal (multiple correct answers) modes.
+- **Question Order**: Play in sequential or random order.
+- **Hints**: Get a hint about the number of correct answers for each question.
+- **Instant Feedback**: See if you were right or wrong immediately after answering.
 
-## File Structure 
+## File Structure
 
 ```
-├── app.py              
-├── quiz_questions_template.json  
-├── requirements.txt       
-├── templates/
-│   └── quiz.html        
+.
+├── app.py                  # Main Flask application
+├── generate_answers.py     # Script to generate quiz content
+├── questions.json          # Your list of base questions
+├── quiz_data.json          # The generated quiz data
+├── requirements.txt        # Project dependencies
 ├── static/
-│   ├── css/
-│   │   └── style.css     
-│   └── js/
-│       └── quiz.js       
-└── README.md             
+│   └── css/
+│       └── style.css       # Styles
+└── templates/
+    ├── index.html          # Start page
+    ├── quiz.html           # Question page
+    ├── feedback.html       # Feedback page
+    └── results.html        # Final results page
 ```
 
 ## Customizing Questions 

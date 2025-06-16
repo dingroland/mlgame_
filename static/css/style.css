@@ -128,7 +128,7 @@ body {
 
 /* Quiz Content */
 .quiz-content {
-    display: none;
+    display: block;
 }
 
 .question-card {
@@ -162,6 +162,17 @@ body {
 .question-controls {
     display: flex;
     gap: 10px;
+}
+
+.hint-text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #666;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    animation: fadeIn 0.5s ease-in;
 }
 
 .btn-icon {
@@ -218,6 +229,18 @@ body {
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.option input[type="checkbox"],
+.option input[type="radio"] {
+    display: none; /* Hide the default checkbox/radio */
+}
+
+.option label {
+    flex-grow: 1;
+    cursor: pointer;
 }
 
 .option::before {
@@ -227,7 +250,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    background: linear-gradient(90deg, transparent, rgba(50, 50, 50, 0.1), transparent);
     transition: left 0.5s ease;
 }
 
@@ -243,8 +266,8 @@ body {
 
 .option.selected {
     border-color: #333333;
-    background: linear-gradient(135deg, #f0f0f0, #e8e8e8);
-    color: #333333;
+    background: linear-gradient(135deg, #e9ecef, #dee2e6);
+    color: #343a40;
     font-weight: 600;
 }
 
